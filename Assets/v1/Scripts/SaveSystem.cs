@@ -6,9 +6,6 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public static void SavePlayer()
     {
         BinaryFormatter formatter = new BinaryFormatter();
@@ -19,9 +16,6 @@ public static class SaveSystem
 
         stream.Close();
     }
-    /// <summary>
-    /// 
-    /// </summary>
     public static void LoadPlayer()
     {
         string dosya_ad = "player.bin";
